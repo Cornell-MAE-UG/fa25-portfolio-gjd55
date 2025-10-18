@@ -209,14 +209,7 @@ Follow the theme's installation and customization instructions as needed to fit 
 
 ## Tips and Tricks
 
-### Commenting Out Content
 
-You can comment out a bit of text or an image by using the `{% comment %}` command:
-
-```ruby
-{% comment %}
-    Stuff you want to comment out.
-{% endcomment %}
 ```
 
 ### Changing the text width
@@ -230,5 +223,5 @@ For example, change the text width by changing the `max-width` of `.container`:
   max-width: 1000px;
 }
 ```
-{% endcomment %}
-{% endcomment %}
+cp README.md README.md.bak
+sed -i '233d' README.md
