@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Linear Actuator Part 2
-description: Homework 4
+description: Continuation of HW 4 with greater detail
 technologies: [MATLAB, python]
-image: assets/images/GitHubHW4Image.png
+image: assets/images/GitHubHW12.png
 ---
