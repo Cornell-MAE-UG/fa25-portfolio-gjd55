@@ -7,3 +7,85 @@ $color_scheme: '{{ site.color_scheme }}';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
+
+/* =========================
+   Project page styling
+   ========================= */
+
+.project-description {
+  margin: 0.5rem 0 1.25rem 0;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+/* ===== Gallery layout ===== */
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.project-thumb {
+  text-decoration: none;
+  display: block;
+}
+
+/* Uniform tile box (no cropping) */
+.project-image-wrapper {
+  width: 100%;
+  aspect-ratio: 4 / 3;                /* change if you want */
+  overflow: hidden;
+  border-radius: 10px;
+  background: #fff;                   /* use transparent if preferred */
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Option A: show entire image, no crop */
+.project-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;     /* key change */
+  display: block;
+  padding: 0.5rem;
+  transition: transform 0.15s ease;
+}
+
+.project-thumb:hover .project-image {
+  transform: scale(1.02);
+}
+
+/* ===== Lightbox (no JS) ===== */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: none !important;           /* ensure hidden */
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  z-index: 9999;
+}
+
+.lightbox:target {
+  display: flex !important;
+}
+
+.lightbox-image {
+  max-width: min(1100px, 95vw);
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;                 
+  border-radius: 10px;
+}
+
+/* Click outside image to close */
+.lightbox-close {
+  position: absolute;
+  inset: 0;
+  cursor: zoom-out;
+}
