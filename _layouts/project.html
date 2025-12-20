@@ -7,13 +7,48 @@ layout: default
 {% if page.images %}
   <div class="project-gallery">
     {% for img in page.images %}
-      <img src="{{ img | relative_url }}" class="project-image" />
+      {% assign idx = forloop.index %}
+      <a class="project-thumb" href="#img{{ idx }}">
+        <div class="project-image-wrapper">
+          <img
+            src="{{ img | relative_url }}"
+            class="project-image"
+            alt="Project image {{ idx }}"
+          />
+        </div>
+      </a>
+
+      <!-- Lightbox modal -->
+      <div id="img{{ idx }}" class="lightbox">
+        <a href="#" class="lightbox-close" aria-label="Close"></a>
+        <img
+          src="{{ img | relative_url }}"
+          class="lightbox-image"
+          alt="Expanded project image {{ idx }}"
+        />
+      </div>
     {% endfor %}
   </div>
+
 {% elsif page.image %}
-  <p>
-    <img src="{{ page.image | relative_url }}" alt="{{ page.imagealt }}" class="project-image" />
-  </p>
+  <a class="project-thumb" href="#img1">
+    <div class="project-image-wrapper">
+      <img
+        src="{{ page.image | relative_url }}"
+        alt="{{ page.imagealt }}"
+        class="project-image"
+      />
+    </div>
+  </a>
+
+  <div id="img1" class="lightbox">
+    <a href="#" class="lightbox-close" aria-label="Close"></a>
+    <img
+      src="{{ page.image | relative_url }}"
+      class="lightbox-image"
+      alt="Expanded project image"
+    />
+  </div>
 {% endif %}
 
 {{ content }}
