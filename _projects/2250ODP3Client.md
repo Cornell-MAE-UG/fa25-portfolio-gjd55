@@ -1,19 +1,10 @@
-----
+---
 layout: project
 title: Client Outline
-description: 
+description: ""
 technologies: [python]
-image: assets/images/SLF-Grape.png
+image: /assets/images/SLF-Grape.png
 ---
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
----
-
-
 # Save the Grapes!!
 
 
