@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Save the Grapes! Client Outline
+title: MAE 2250 Client Pitch
 description: ""
 technologies: [python]
 image: /assets/images/SLF-Grape.jpg
