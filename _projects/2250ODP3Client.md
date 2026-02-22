@@ -10,7 +10,7 @@ image: /assets/images/SLF-Grape.jpg
 
 **Team:** Save the Grapes
 
-**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
 
 **Problem Statement**: Spotted lanternflies (SLFs) land on grape vines and feed on plant sugars, contaminating grape harvests, reducing yields, and causing worse-tasting grapes for consumers. SFLs also release sticky mold, which covers leaves, inhibiting photosynthesis and harming vine growth. These effects can cost the $16.81 billion wine industry millions of dollars in lost yields. Due to the high volume of SLF and strict safety regulations, vines could be damaged by sufficiently thorough on-plant removal methods. How can we remove the lantern flies from the grape vines without harming the plant and is there a way to attract them away from the vines themselves?
