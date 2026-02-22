@@ -24,14 +24,18 @@ Grape farmers can face significant losses if their harvests are damaged or destr
 
 ### Concept A (primary): LanterVine
 Concept A: False Grape Vine 
-What is it:
-A faux grape vine made from sustainable materials that mimics the qualities and smells of attractants for lantern flies. This idea serves to draw lantern flies away from real grape vines, allowing them to be captured and disposed of. 
+   What is it:
+   A faux grape vine made from sustainable materials that mimics the qualities and smells of attractants for lantern flies. This idea serves to draw lantern flies away from real grape vines, allowing them to be captured and disposed of. 
+
 How would it be used: 
-    Multiple vines would be set up throughout the vineyard at the discretion of the owner
+      
+       Multiple vines would be set up throughout the vineyard at the discretion of the owner
     These fake vines would contain faux Tree of Heaven sap, which SLFs prefer to the grapes, as well as a 60Hz emitter, which SLFs are attracted to  
-Why is it better than the status quo?
-    Farms currently spray pesticides to deter SLFs, which fade after only a few days
+
+Why is it better than the status quo?:
+   Farms currently spray pesticides to deter SLFs, which fade after only a few days
     No interference with existing growing processes. The traps do not touch the grape vines.
+
 Prototype: One single vine made from 3D prints, wood, and purchased parts, complete with a speaker that emits 60 hz vibrations, and containing liquid to simulate Tree of Heaven sap.
 The prototype will be a smaller proof-of-concept than the final product for vineyards due to the accelerated timeline of MAE 2250.
 
@@ -40,7 +44,7 @@ The prototype will be a smaller proof-of-concept than the final product for vine
 
 **Risk 1**: Faux grape vine traps may occupy usable growing space in vineyards. We will test how the product's size changes its effectiveness by altering variables such as trap size, sap potency, and vibration frequency.
 
-**Risk 2** — The vine may attract unwanted insects or animals to the vineyards, so we will monitor the trap at the site before full implementation.
+**Risk 2**: The vine may attract unwanted insects or animals to the vineyards, so we will monitor the trap at the site before full implementation.
 
 
 ## Questions for the client
@@ -58,22 +62,3 @@ The prototype will be a smaller proof-of-concept than the final product for vine
 
 4. **How much labor can the client divert towards maintaining the grape vine traps every season?**
    *This will allow us to determine the level of maintenance our traps can have.* 
-
-
-\newpage
-
-
-# Optional page 2 — References and/or one figure
-
-
-## References
-
-
-- <Source 1 (URL or citation)>
-- <Source 2 (URL or citation)>
-
-
-## Figure
-
-
-<!-- ![<One-line caption. No full sentences.>](figures/<your_figure_filename>.png) -->
