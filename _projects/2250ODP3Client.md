@@ -29,8 +29,8 @@ Concept A: False Grape Vine
 
 How would it be used: 
       
-       Multiple vines would be set up throughout the vineyard at the discretion of the owner
-    These fake vines would contain faux Tree of Heaven sap, which SLFs prefer to the grapes, as well as a 60Hz emitter, which SLFs are attracted to  
+   - Multiple vines would be set up throughout the vineyard at the discretion of the owner
+   - These fake vines would contain faux Tree of Heaven sap, which SLFs prefer to the grapes, as well as a 60Hz emitter, which SLFs are attracted to  
 
 Why is it better than the status quo?:
    Farms currently spray pesticides to deter SLFs, which fade after only a few days
