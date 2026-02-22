@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Client Outline
+title: Save the Grapes! Client Outline
 description: ""
 technologies: [python]
 image: /assets/images/SLF-Grape.jpg
