@@ -23,9 +23,10 @@ Grape farmers can face significant losses if their harvests are damaged or destr
 
 
 ### Concept A (primary): LanterVine
-Concept A: False Grape Vine 
+
    What is it:
-   A faux grape vine made from sustainable materials that mimics the qualities and smells of attractants for lantern flies. This idea serves to draw lantern flies away from real grape vines, allowing them to be captured and disposed of. 
+   
+   - A faux grape vine made from sustainable materials that mimics the qualities and smells of attractants for lantern flies. This idea serves to draw lantern flies away from real grape vines, allowing them to be captured and disposed of. 
 
 How would it be used: 
       
@@ -33,10 +34,13 @@ How would it be used:
    - These fake vines would contain faux Tree of Heaven sap, which SLFs prefer to the grapes, as well as a 60Hz emitter, which SLFs are attracted to  
 
 Why is it better than the status quo?:
-   Farms currently spray pesticides to deter SLFs, which fade after only a few days
-    No interference with existing growing processes. The traps do not touch the grape vines.
 
-Prototype: One single vine made from 3D prints, wood, and purchased parts, complete with a speaker that emits 60 hz vibrations, and containing liquid to simulate Tree of Heaven sap.
+   - Farms currently spray pesticides to deter SLFs, which fade after only a few days
+   - No interference with existing growing processes. The traps do not touch the grape vines.
+
+Prototype: 
+
+- One single vine made from 3D prints, wood, and purchased parts, complete with a speaker that emits 60 hz vibrations, and containing liquid to simulate Tree of Heaven sap.
 The prototype will be a smaller proof-of-concept than the final product for vineyards due to the accelerated timeline of MAE 2250.
 
 ## Key risks / unknowns
