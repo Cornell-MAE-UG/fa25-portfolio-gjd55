@@ -9,6 +9,7 @@ image: /assets/images/SLF-Grape.jpg
 
 
 **Team:** Save the Grapes
+
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
 
@@ -25,7 +26,7 @@ Grape farmers can face significant losses if their harvests are damaged or destr
 ### Concept A (primary): LanterVine
 
    What is it:
-   
+
    - A faux grape vine made from sustainable materials that mimics the qualities and smells of attractants for lantern flies. This idea serves to draw lantern flies away from real grape vines, allowing them to be captured and disposed of. 
 
 How would it be used: 
