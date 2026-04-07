@@ -98,21 +98,68 @@ DATA TABLE 2 and IMAGE 2
 
 ## Success Criteria
 
-Context: We are looking to create a fake grape vine to attract lantern flies away from vineyards so they don’t destroy real grape vines. Once we have attracted the lantern flies away from the real grape vines, we are then able to ethically dispose of them. 
+<p>
+  Context: We are looking to create a fake grape vine to attract lantern flies away
+  from vineyards so they don’t destroy real grape vines. Once we have attracted the
+  lantern flies away from the real grape vines, we are then able to ethically dispose
+  of them.
+</p>
 
-Looking at the next step in our timeline which is refining some of our tests and design from this prototype. With that we noticed a couple of issues in our current tests that could be refined.
+<p>
+  Looking at the next step in our timeline, which is refining some of our tests and
+  design from this prototype, we noticed a couple of issues in our current tests that
+  could be refined.
+</p>
 
-# Project Success Criteria
+<h2 style="margin-top: 2rem;">Project Success Criteria</h2>
 
-# Sap Fluid Drainage at a rate < 20mL/hr
-    Since our sap slowly leaks out of the holes along the wrapped tubing we want to make sure that it doesn’t drain out too quickly, in order to save the maintenance time of refilling. Looking at our data right now we have a drainage rate of around 180ml/hr for the sap so we definitely want to cut that down in the future. To do this we would have to slow the drive voltage from the power source or we could try out a clamp on one of the ends to limit the flow down. If we have the flow at 20 ml an hour the sap would need to be replaced around once a day considering a 500 ml reservoir at the bottom. This could easily be tested again using our pup and tracking volume. This is in representation of our smaller scaled model so it would probably be around once a week for the larger “real world” model when scaled up.
+<div style="margin-left: 2.25rem; margin-top: 2rem;">
+  <p style="font-size: 1.6rem; font-weight: 700; margin-bottom: 0.75rem;">
+    (1) Sap Fluid Drainage at a rate &lt; 20 mL/hr
+  </p>
+  <p style="margin-left: 3.25rem; max-width: 900px; line-height: 1.6;">
+    Since our sap slowly leaks out of the holes along the wrapped tubing, we want to
+    make sure that it does not drain out too quickly in order to save maintenance
+    time spent refilling. Looking at our data right now, we have a drainage rate of
+    around 180 mL/hr for the sap, so we definitely want to cut that down in the
+    future. To do this, we could slow the drive voltage from the power source or try
+    a clamp on one of the ends to limit the flow. If we have the flow at 20 mL an
+    hour, the sap would need to be replaced around once a day considering a 500 mL
+    reservoir at the bottom. This could easily be tested again using our pump and
+    tracking volume. Since this is a representation of our smaller scaled model, it
+    would probably be around once a week for the larger “real world” model when
+    scaled up.
+  </p>
+</div>
 
+<div style="margin-left: 2.25rem; margin-top: 3rem;">
+  <p style="font-size: 1.6rem; font-weight: 700; margin-bottom: 0.75rem;">
+    (2) Vinegar Sprayer Spraying Radius of &gt; 0.25 m
+  </p>
+  <p style="margin-left: 3.25rem; max-width: 900px; line-height: 1.6;">
+    When thinking about our concept, we wanted to make sure that our vinegar does
+    not really spray anything but the distraction so that it would not affect the
+    grapes. With that, we want to make sure that our radius is limited to 0.25 m.
+    We did not measure radius this time, so it will be interesting to see what our
+    next set of tests shows. The radius could be measured by placing a paper
+    underneath our contraption and running the shower system for around 30 seconds
+    to see where the farthest droplet lands on the paper underneath. In terms of
+    design criteria to maximize this, we could redesign our shower head to cave
+    inward like an umbrella so the spray faces the PVC pipe.
+  </p>
+</div>
 
-# Vinegar Sprayer Spraying Radius of >0.25m
-    When thinking about our concept we wanted to make sure that our vinegar doesn’t really spray anything but the distraction so that it wouldn't affect the grapes. With that we want to make sure that our radius is limited to 0.25m. We did not measure radius this time so it will be interesting to see what our next set of tests shows. The radius could be measured by placing a paper underneath our contraption and running the shower system for around 30 seconds and see where the farthest droplet lands on the paper underneath. In terms of design criteria to maximize this We could redesign our shower head to cave inward like an umbrella so the spray faces the PVC pipe.
-
-# Electronics and Fluid Storage Contained within a 320 cubic inches Volume
-    We have limited space for the reservoirs in the boxes underneath so both the vinegar and sap reservoirs along with the electronics have to fit. For this we would have to maximize the fluid storages while still prioritizing the safety of the electronics. 
+<div style="margin-left: 2.25rem; margin-top: 3rem;">
+  <p style="font-size: 1.6rem; font-weight: 700; margin-bottom: 0.75rem;">
+    (3) Electronics and Fluid Storage Contained within a 320 cubic inch Volume
+  </p>
+  <p style="margin-left: 3.25rem; max-width: 900px; line-height: 1.6;">
+    We have limited space for the reservoirs in the boxes underneath, so both the
+    vinegar and sap reservoirs, along with the electronics, have to fit. For this,
+    we would have to maximize the fluid storages while still prioritizing the safety
+    of the electronics.
+  </p>
+</div>
 
 # Demonstration Day Criteria
     When it comes to demonstration day criteria, one of the most relevant is the success of the vinegar sprayer spraying radius being greater than 0.25m. This is because it is a clear visual for those in the audience that we were able to get a key mechanical system working but also that we would be able to kill lantern flies in a wide area which are on our system.
