@@ -95,7 +95,6 @@ Our testing process verified two different aspects of our prototype, both of whi
     <div style="height: 400px; display: flex; align-items: center; justify-content: center;">
       <img
         src="{{ "/assets/images/datatable1.png" | relative_url }}"
-        alt="Data Table 1"
         style="max-width: 100%; max-height: 100%; width: auto; height: auto;"
       />
     </div>
@@ -108,7 +107,6 @@ Our testing process verified two different aspects of our prototype, both of whi
     <div style="height: 400px; display: flex; align-items: center; justify-content: center;">
       <img
         src="{{ "/assets/images/image1.png" | relative_url }}"
-        alt="Image 1"
         style="max-width: 100%; max-height: 100%; width: auto; height: auto;"
       />
     </div>
@@ -131,7 +129,6 @@ Our testing process verified two different aspects of our prototype, both of whi
     <div style="height: 400px; display: flex; align-items: center; justify-content: center;">
       <img
         src="{{ "/assets/images/datatable2.png" | relative_url }}"
-        alt="Data Table 2"
         style="max-width: 100%; max-height: 100%; width: auto; height: auto;"
       />
     </div>
@@ -144,7 +141,6 @@ Our testing process verified two different aspects of our prototype, both of whi
     <div style="height: 400px; display: flex; align-items: center; justify-content: center;">
       <img
         src="{{ "/assets/images/image2.png" | relative_url }}"
-        alt="Image 2"
         style="max-width: 100%; max-height: 100%; width: auto; height: auto;"
       />
     </div>
