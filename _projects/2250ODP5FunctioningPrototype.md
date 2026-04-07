@@ -32,34 +32,60 @@ image: /assets/images/ODP5coverimage.png
 
 
 ## Assembly Process
- # Box Base
-    1. Cut four balsa planks to 10in using hand saw 
-    2. Cut one pla nk to 8in using hand saw 
-    3. Attach two 10in pieces parallel using 4 screws and the two 3d printed top attachments to create the top
-    4. Connect a top plank to a side plank perpendicularly with the corner attachment 
-          a. Insert screw with a washer on each side and secure with nut
-          b. Two of these corner attachments per side
-          c. Corner attachments should be always connected to a top piece
-    5. Repeat this step until it is a box without a front or a bottom
-          a. All pieces should be connected to the top
-    6. Take 3D printed frame and attach in the same way using corner attachments
-    7. Use hinges to attach 3D printed door to the frame
-          a. Attach with screws, washers, and nuts
-    8. Cut hole through the middle using a hole saw
- # PVC Pipe & Tubing
-    1. Dremel hole in PVC Pipe 4.5in up from the bottom for wrapped tubing to exit out of
-    2. Dremel hole in PVC pipe 1.5 in from top for wrapped piping to go back inside
-    3. Dremel hole 2 in from the bottom of PVC pipe
-    4. Cut the 25 ft plastic 5mm tubing into one 43in piece (inner) and one 96 in piece (wrapped)
-    5. Run inner tubing through middle of PVC pipe and connect to the smallest hole in the center of the shower head
-          a. Secure with tape
-    6. Exit it on the bottom through the hole 2in from bottom
-    7. Run wrapped tubing through the bottom of the PVC pipe and out the first hole(4.5in from bottom)
-    8. Wrap the tubing around the pvc pipe until the hole at the top
-          a. Secure with tape
-    9. Push tubing through the hole and the top and back down the pipe but through the center now and exit it at the hole 2 in from the bottom
-    10. Place PVC Pipe with wrapped tubing through hole in the box
-    11. Go through and every 1/16 in make a very small slash in the wrapped tubing outside using the Xacto knife
+
+### Box Base
+<ol>
+  <li>Cut four balsa planks to 10 in using a hand saw.</li>
+  <li>Cut one plank to 8 in using a hand saw.</li>
+  <li>Attach two 10 in pieces parallel using 4 screws and the two 3D-printed top attachments to create the top.</li>
+  <li>
+    Connect a top plank to a side plank perpendicularly with the corner attachment.
+    <ol type="a">
+      <li>Insert screw with a washer on each side and secure with a nut.</li>
+      <li>Use two of these corner attachments per side.</li>
+      <li>Corner attachments should always be connected to a top piece.</li>
+    </ol>
+  </li>
+  <li>
+    Repeat this step until it is a box without a front or a bottom.
+    <ol type="a">
+      <li>All pieces should be connected to the top.</li>
+    </ol>
+  </li>
+  <li>Take the 3D-printed frame and attach it in the same way using corner attachments.</li>
+  <li>
+    Use hinges to attach the 3D-printed door to the frame.
+    <ol type="a">
+      <li>Attach with screws, washers, and nuts.</li>
+    </ol>
+  </li>
+  <li>Cut a hole through the middle using a hole saw.</li>
+</ol>
+
+### PVC Pipe &amp; Tubing
+<ol>
+  <li>Dremel a hole in the PVC pipe 4.5 in up from the bottom for wrapped tubing to exit out of.</li>
+  <li>Dremel a hole in the PVC pipe 1.5 in from the top for wrapped piping to go back inside.</li>
+  <li>Dremel a hole 2 in from the bottom of the PVC pipe.</li>
+  <li>Cut the 25 ft plastic 5 mm tubing into one 43 in piece (inner) and one 96 in piece (wrapped).</li>
+  <li>
+    Run inner tubing through the middle of the PVC pipe and connect to the smallest hole in the center of the shower head.
+    <ol type="a">
+      <li>Secure with tape.</li>
+    </ol>
+  </li>
+  <li>Exit it on the bottom through the hole 2 in from the bottom.</li>
+  <li>Run wrapped tubing through the bottom of the PVC pipe and out the first hole (4.5 in from bottom).</li>
+  <li>
+    Wrap the tubing around the PVC pipe until the hole at the top.
+    <ol type="a">
+      <li>Secure with tape.</li>
+    </ol>
+  </li>
+  <li>Push tubing through the hole at the top and back down the pipe, but through the center now, and exit it at the hole 2 in from the bottom.</li>
+  <li>Place the PVC pipe with wrapped tubing through the hole in the box.</li>
+  <li>Go through and, every 1/16 in, make a very small slash in the wrapped tubing outside using the X-Acto knife.</li>
+</ol>
 
 ## Design Test
 Our testing process verified two different aspects of our prototype, both of which involved the pumping of water from the base to the top of the product. Water was used as the test fluid due to its accessibility and similar qualities to our final fluid we will use. Our first test examined fluid flow from the pump out of the tubing that wrapped around the PVC pipe. We used an Xacto knife to make small incisions in the tubing to enable water to flow out of it. These incisions will closely, if not exactly, reflect how we will create holes in our final product. We measured incision flow in time intervals of 2.5 mins due to our assumption that the flow rate would be very small, which would make it difficult to measure the flow rate on a seconds based time interval. Also, we chose minutes as our time scale because we intend to have the fluid in the final product last several days before being refilled. We were unable to measure on a time scale of hours because our lab time did not allow for it. We used a measuring device graduated in 10 mL increments when measuring flow rates.
