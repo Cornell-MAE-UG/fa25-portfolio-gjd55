@@ -11,10 +11,22 @@ image: /assets/images/ODP5coverimage.png
 **Team:** Save the Grapes
 
 ## Design Documentation
-![BOM]({{ "/assets/images/bom.png" | relative_url }})
+<p style="text-align: center;">
+  <img
+    src="{{ "/assets/images/bom.png" | relative_url }}"
+    alt="BOM"
+    style="max-width: 600px; width: 80%; height: auto;"
+  />
+</p>
 
 ## Design Intent
-![Design Intent Sketch]({{ "/assets/images/designintent_sketch.png" | relative_url }})
+<p style="text-align: center;">
+  <img
+    src="{{ "/assets/images/designintent_sketch.png" | relative_url }}"
+    alt="Design Intent Sketch"
+    style="max-width: 600px; width: 80%; height: auto;"
+  />
+</p>
 
 ## CAD Assembly
 
