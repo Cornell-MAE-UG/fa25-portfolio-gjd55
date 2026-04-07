@@ -231,6 +231,12 @@ Our testing process verified two different aspects of our prototype, both of whi
   </p>
 </div>
 
-# Demonstration Day Criteria
-    When it comes to demonstration day criteria, one of the most relevant is the success of the vinegar sprayer spraying radius being greater than 0.25m. This is because it is a clear visual for those in the audience that we were able to get a key mechanical system working but also that we would be able to kill lantern flies in a wide area which are on our system.
+<h2 style="margin-top: 3rem; margin-bottom: 2rem;">Demonstration Day Criteria</h2>
 
+<p style="max-width: 1000px; line-height: 1.6; font-size: 1.05rem; margin: 0 0 2rem 0;">
+  When it comes to demonstration day criteria, one of the most relevant is the
+  success of the vinegar sprayer spraying radius being greater than 0.25 m. This is
+  because it is a clear visual for those in the audience that we were able to get a
+  key mechanical system working, but also that we would be able to kill lantern
+  flies in a wide area that are on our system.
+</p>
