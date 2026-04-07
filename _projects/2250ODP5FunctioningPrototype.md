@@ -90,11 +90,81 @@ image: /assets/images/ODP5coverimage.png
 ## Design Test
 Our testing process verified two different aspects of our prototype, both of which involved the pumping of water from the base to the top of the product. Water was used as the test fluid due to its accessibility and similar qualities to our final fluid we will use. Our first test examined fluid flow from the pump out of the tubing that wrapped around the PVC pipe. We used an Xacto knife to make small incisions in the tubing to enable water to flow out of it. These incisions will closely, if not exactly, reflect how we will create holes in our final product. We measured incision flow in time intervals of 2.5 mins due to our assumption that the flow rate would be very small, which would make it difficult to measure the flow rate on a seconds based time interval. Also, we chose minutes as our time scale because we intend to have the fluid in the final product last several days before being refilled. We were unable to measure on a time scale of hours because our lab time did not allow for it. We used a measuring device graduated in 10 mL increments when measuring flow rates.
 
-DATA TABlE 1 and IMAGE 1
+<div style="max-width: 1000px; margin: 2rem auto 1rem auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; align-items: start;">
+  <figure style="margin: 0; text-align: center;">
+    <div style="height: 400px; display: flex; align-items: center; justify-content: center;">
+      <img
+        src="{{ "/assets/images/datatable1.png" | relative_url }}"
+        alt="Data Table 1"
+        style="max-width: 100%; max-height: 100%; width: auto; height: auto;"
+      />
+    </div>
+    <figcaption style="font-weight: 700; font-size: 2rem; margin-top: 0.75rem;">
+      Data Table 1
+    </figcaption>
+  </figure>
 
-Data Table 1 shows our results from the incision flow. Based on Data Table 1, our average flow rate was 3 mL/min, confirming our assumption that incision flow would be very small. Image 1 shows the water that was used in the tube and coming out of the tube, which confirmed a part of our success criteria. 
+  <figure style="margin: 0; text-align: center;">
+    <div style="height: 400px; display: flex; align-items: center; justify-content: center;">
+      <img
+        src="{{ "/assets/images/image1.png" | relative_url }}"
+        alt="Image 1"
+        style="max-width: 100%; max-height: 100%; width: auto; height: auto;"
+      />
+    </div>
+    <figcaption style="font-weight: 700; font-size: 2rem; margin-top: 0.75rem;">
+      Image 1
+    </figcaption>
+  </figure>
+</div>
 
-DATA TABLE 2 and IMAGE 2
+<p style="max-width: 1000px; margin: 1rem auto 3rem auto; line-height: 1.7;">
+  <strong>Data Table 1</strong> shows our results from the incision flow. Based on
+  <strong>Data Table 1</strong>, our average flow rate was 3 mL/min, confirming our
+  assumption that incision flow would be very small. <strong>Image 1</strong> shows
+  the water that was used in the tube and coming out of the tube, which confirmed a
+  part of our success criteria.
+</p>
+
+<div style="max-width: 1000px; margin: 2rem auto 1rem auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; align-items: start;">
+  <figure style="margin: 0; text-align: center;">
+    <div style="height: 400px; display: flex; align-items: center; justify-content: center;">
+      <img
+        src="{{ "/assets/images/datatable2.png" | relative_url }}"
+        alt="Data Table 2"
+        style="max-width: 100%; max-height: 100%; width: auto; height: auto;"
+      />
+    </div>
+    <figcaption style="font-weight: 700; font-size: 2rem; margin-top: 0.75rem;">
+      Data Table 2
+    </figcaption>
+  </figure>
+
+  <figure style="margin: 0; text-align: center;">
+    <div style="height: 400px; display: flex; align-items: center; justify-content: center;">
+      <img
+        src="{{ "/assets/images/image2.png" | relative_url }}"
+        alt="Image 2"
+        style="max-width: 100%; max-height: 100%; width: auto; height: auto;"
+      />
+    </div>
+    <figcaption style="font-weight: 700; font-size: 2rem; margin-top: 0.75rem;">
+      Image 2
+    </figcaption>
+  </figure>
+</div>
+
+<p style="max-width: 1000px; margin: 1rem auto 0 auto; line-height: 1.7;">
+  <strong>Data Table 2</strong> shows the results from the flow rate from the shower
+  head design experiment. The flow rate for the shower head design was noticeably
+  higher than the incision design (factor of 30x). This matched our expectations
+  because we had a much larger cross-sectional area in the shower head for the water
+  to flow when compared with the incision design. <strong>Image 2</strong> shows the
+  shower head design experiment. We propped the shower head at a height similar to
+  where it would stand on the final product in order to gauge flow rate at a non-zero
+  height above the pump. This is important because the higher the water has to be
+  pumped, the slower the flow rate will be.
+</p>
 
 ## Success Criteria
 
