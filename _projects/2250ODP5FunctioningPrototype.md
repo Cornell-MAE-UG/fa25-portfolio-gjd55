@@ -30,6 +30,39 @@ image: /assets/images/ODP5coverimage.png
 
 ## CAD Assembly
 
+<div style="max-width: 1100px; margin: 2rem auto; text-align: center;">
+
+  <figure style="margin: 0 0 2rem 0;">
+    <img
+      src="{{ "/assets/images/assemblymain.png" | relative_url }}"
+      alt="Main CAD assembly view"
+      style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;"
+    />
+  </figure>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; justify-items: center; align-items: start;">
+    <figure style="margin: 0; width: 100%; max-width: 420px;">
+      <div style="height: 370px; display: flex; align-items: center; justify-content: center;">
+        <img
+          src="{{ "/assets/images/assemblyunder.png" | relative_url }}"
+          alt="CAD assembly underside view"
+          style="max-width: 100%; max-height: 100%; width: auto; height: auto; display: block; margin: 0 auto;"
+        />
+      </div>
+    </figure>
+
+    <figure style="margin: 0; width: 100%; max-width: 420px;">
+      <div style="height: 370px; display: flex; align-items: center; justify-content: center;">
+        <img
+          src="{{ "/assets/images/assemblywide.png" | relative_url }}"
+          alt="CAD assembly wide view"
+          style="max-width: 100%; max-height: 100%; width: auto; height: auto; display: block; margin: 0 auto;"
+        />
+      </div>
+    </figure>
+  </div>
+
+</div>
 
 ## Assembly Process
 
