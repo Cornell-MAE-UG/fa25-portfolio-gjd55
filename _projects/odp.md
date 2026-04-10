@@ -1,5 +1,4 @@
 ---
-layout: project
 title: ODP
 description: Overview page for ODP project work.
 image: /assets/images/assemblymain.png

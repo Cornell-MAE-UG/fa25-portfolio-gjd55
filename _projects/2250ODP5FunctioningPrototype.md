@@ -1,7 +1,6 @@
 ---
-layout: project
 title: ODP 5
-description: ""
+description: Functioning prototype project page.
 image: /assets/images/ODP5coverimage.png
 technologies: [CAD, Prototyping]
 permalink: /projects/odp5/

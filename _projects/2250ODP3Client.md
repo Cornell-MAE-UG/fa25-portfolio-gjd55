@@ -1,7 +1,6 @@
 ---
-layout: project
 title: ODP 3
-description: ""
+description: Client-focused ODP 3 project page.
 image: /assets/images/assemblywide.png
 technologies: [CAD, Prototyping]
 permalink: /projects/odp3/
