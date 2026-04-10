@@ -18,7 +18,7 @@ permalink: /projects/odp/
   <a href="{{ "/projects/odp3/" | relative_url }}" style="text-decoration: none; color: inherit;">
     <div style="border: 1px solid #ccc; border-radius: 10px; overflow: hidden; padding-bottom: 1rem; background: white;">
       <img
-        src="{{ "/assets/images/assemblywide.png" | relative_url }}"
+        src="{{ "/assets/images/SLF-Grape.jpg" | relative_url }}"
         alt="ODP 3"
         style="width: 100%; height: 240px; object-fit: cover; display: block;"
       />
@@ -32,7 +32,7 @@ permalink: /projects/odp/
   <a href="{{ "/projects/odp5/" | relative_url }}" style="text-decoration: none; color: inherit;">
     <div style="border: 1px solid #ccc; border-radius: 10px; overflow: hidden; padding-bottom: 1rem; background: white;">
       <img
-        src="{{ "/assets/images/assemblymain.png" | relative_url }}"
+        src="{{ "/assets/images/ODP5coverimage.png" | relative_url }}"
         alt="ODP 5"
         style="width: 100%; height: 240px; object-fit: cover; display: block;"
       />
