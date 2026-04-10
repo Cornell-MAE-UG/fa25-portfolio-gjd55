@@ -1,9 +1,11 @@
 ---
 layout: project
-title: MAE 2250 Functioning Prototype
+title: ODP 5
 description: ""
-technologies: [python]
 image: /assets/images/ODP5coverimage.png
+technologies: [CAD, Prototyping]
+permalink: /projects/odp5/
+hidden_from_projects: true
 ---
 # Save the Grapes!!
 

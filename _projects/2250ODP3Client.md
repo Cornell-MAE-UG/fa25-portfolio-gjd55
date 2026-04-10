@@ -1,9 +1,11 @@
 ---
 layout: project
-title: MAE 2250 Client Pitch
+title: ODP 3
 description: ""
-technologies: [python]
-image: /assets/images/SLF-Grape.jpg
+image: /assets/images/assemblywide.png
+technologies: [CAD, Prototyping]
+permalink: /projects/odp3/
+hidden_from_projects: true
 ---
 # Save the Grapes!!
 
