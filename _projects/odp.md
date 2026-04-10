@@ -1,7 +1,7 @@
 ---
 title: ODP
 description: Overview page for ODP project work.
-image: /assets/images/assemblymain.png
+image: /assets/images/SLF-Grape.jpg
 technologies: [CAD, Prototyping]
 permalink: /projects/odp/
 ---

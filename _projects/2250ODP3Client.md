@@ -1,7 +1,7 @@
 ---
 title: ODP 3
 description: Client-focused ODP 3 project page.
-image: /assets/images/assemblywide.png
+image: /assets/images/SLF-Grape.jpg
 technologies: [CAD, Prototyping]
 permalink: /projects/odp3/
 hidden_from_projects: true
