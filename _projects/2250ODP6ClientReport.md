@@ -120,7 +120,4 @@ back_label: Back to ODP
  
 </p>
 <p style="margin-top: 1.5rem;">
-  <a href="{{ "/assets/docs/ODP6-Exhibit-and-Client-Report.pdf" | relative_url }}" target="_blank">
-    View Full ODP 6 PDF
-  </a>
 </p>
