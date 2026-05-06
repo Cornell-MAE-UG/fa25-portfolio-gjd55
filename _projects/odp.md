@@ -23,7 +23,7 @@ permalink: /projects/odp/
   <a href="{{ "/projects/odp3/" | relative_url }}" style="text-decoration: none; color: inherit;">
     <div style="border: 1px solid #ccc; border-radius: 10px; overflow: hidden; background: white; height: 100%;">
       <img
-        src="{{ "/assets/images/assemblywide.png" | relative_url }}"
+        src="{{ "/assets/images/SLF-Grape.jpg" | relative_url }}"
         alt="ODP 3 Client Pitch"
         style="width: 100%; height: 220px; object-fit: cover; display: block;"
       />

@@ -108,16 +108,7 @@ back_label: Back to ODP
 </p>
 
 <p style="line-height: 1.6;">
-  The recommended next step is field testing. The report specifically notes that
-  future work should evaluate the best attractant, determine ideal placement for
-  gathering insects, and modify the device aesthetics so it can be better
-  camouflaged within a vineyard.
-</p>
-
-### PDF Appendix
-
-<p style="line-height: 1.6;">
- 
-</p>
-<p style="margin-top: 1.5rem;">
+  The recommended next step is field testing. Future work should evaluate the best
+  attractant, determine ideal placement for gathering insects, and modify the
+  device aesthetics so it can be better camouflaged within a vineyard.
 </p>
