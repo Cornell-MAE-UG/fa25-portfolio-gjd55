@@ -1,7 +1,7 @@
 ---
 layout: project
-title: MAE 2250 – Save the Grapes
-description: A spotted lanternfly diversion concept developed through three major milestones Client Pitch, Functioning Prototype, and Exhibit/Client Report.
+title: "MAE 2250 – Save the Grapes"
+description: "A spotted lanternfly diversion concept developed through three major milestones: Client Pitch, Functioning Prototype, and Exhibit/Client Report."
 image: /assets/images/assemblymain.png
 technologies: [CAD, Prototyping, Testing, Arduino]
 permalink: /projects/odp/

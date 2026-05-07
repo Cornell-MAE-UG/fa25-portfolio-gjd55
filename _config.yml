@@ -1,10 +1,10 @@
 title: Jamie Dalvito
 description: Jamie Dalvito - Projects and CV
+
 url: "https://cornell-mae-ug.github.io"
 baseurl: "/fa25-portfolio-gjd55"
 
 theme: jekyll-theme-minimal
-color_scheme: lightblue
 
 sass:
   sass_dir: _sass
