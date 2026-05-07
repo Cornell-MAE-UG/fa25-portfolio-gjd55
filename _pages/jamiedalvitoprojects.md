@@ -5,9 +5,8 @@ permalink: /projects/
 ---
 
 # Projects
-
+<p>Project count: {{ site.projects | size }}</p>
 {% assign visible_projects = site.projects | where_exp: "project", "project.hidden_from_projects != true" %}
-
 <div style="max-width: 1100px; margin: 0 auto;">
   {% for project in visible_projects %}
     <div style="margin-bottom: 3rem;">
