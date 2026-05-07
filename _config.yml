@@ -4,6 +4,7 @@ url: "https://cornell-mae-ug.github.io"
 baseurl: "/fa25-portfolio-gjd55"
 
 theme: jekyll-theme-minimal
+color_scheme: lightblue
 
 sass:
   style: compressed
