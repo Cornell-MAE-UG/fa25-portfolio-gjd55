@@ -1,5 +1,6 @@
 ---
-title: ODP 5
+layout: project
+title: ODP 5 – Functioning Prototype
 description: Functioning prototype project page.
 image: /assets/images/ODP5coverimage.png
 technologies: [CAD, Prototyping]

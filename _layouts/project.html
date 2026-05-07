@@ -2,65 +2,68 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<article class="project-page">
+  <h1>{{ page.title }}</h1>
 
-{% if page.description %}
-  <p class="project-description">{{ page.description }}</p>
-{% endif %}
+  {% if page.description %}
+    <p class="project-description">{{ page.description }}</p>
+  {% endif %}
 
-{% if page.images %}
-  <div class="project-gallery">
-    {% for img in page.images %}
-      {% assign idx = forloop.index %}
-      <a class="project-thumb" href="#img{{ idx }}">
-        <div class="project-image-wrapper">
+  {% if page.images %}
+    <div class="project-gallery">
+      {% for img in page.images %}
+        {% assign idx = forloop.index %}
+        <a class="project-thumb" href="#img{{ idx }}">
+          <div class="project-image-wrapper">
+            <img
+              src="{{ img | relative_url }}"
+              class="project-image"
+              alt="{{ page.title }} image {{ idx }}"
+            />
+          </div>
+        </a>
+
+        <div id="img{{ idx }}" class="lightbox">
+          <a href="#" class="lightbox-close" aria-label="Close"></a>
           <img
             src="{{ img | relative_url }}"
-            class="project-image"
-            alt="Project image {{ idx }}"
+            class="lightbox-image"
+            alt="{{ page.title }} expanded image {{ idx }}"
           />
         </div>
-      </a>
+      {% endfor %}
+    </div>
 
-      <!-- Lightbox modal -->
-      <div id="img{{ idx }}" class="lightbox">
-        <a href="#" class="lightbox-close" aria-label="Close"></a>
+  {% elsif page.image %}
+    <a class="project-thumb" href="#img1">
+      <div class="project-image-wrapper">
         <img
-          src="{{ img | relative_url }}"
-          class="lightbox-image"
-          alt="Expanded project image {{ idx }}"
+          src="{{ page.image | relative_url }}"
+          alt="{{ page.imagealt | default: page.title }}"
+          class="project-image"
         />
       </div>
-    {% endfor %}
-  </div>
+    </a>
 
-{% elsif page.image %}
-  <a class="project-thumb" href="#img1">
-    <div class="project-image-wrapper">
+    <div id="img1" class="lightbox">
+      <a href="#" class="lightbox-close" aria-label="Close"></a>
       <img
         src="{{ page.image | relative_url }}"
-        alt="{{ page.imagealt }}"
-        class="project-image"
+        class="lightbox-image"
+        alt="{{ page.title }} expanded image"
       />
     </div>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.technologies %}
+    <p class="project-tech">
+      <strong>Technologies Used:</strong> {{ page.technologies | join: ", " }}
+    </p>
+  {% endif %}
+
+  <a href="{{ page.back_url | default: "/projects/" | relative_url }}" class="back-arrow">
+    ← {{ page.back_label | default: "Back to Projects" }}
   </a>
-
-  <div id="img1" class="lightbox">
-    <a href="#" class="lightbox-close" aria-label="Close"></a>
-    <img
-      src="{{ page.image | relative_url }}"
-      class="lightbox-image"
-      alt="Expanded project image"
-    />
-  </div>
-{% endif %}
-
-{{ content }}
-
-{% if page.technologies %}
-  <p><strong>Technologies Used</strong>: {{ page.technologies | join: ", " }}</p>
-{% endif %}
-
-<a href="{{ page.back_url | default: "/projects/" | relative_url }}" class="back-arrow">
-  <i class="bi bi-arrow-left-circle-fill"></i> {{ page.back_label | default: "Back to Projects" }}
-</a>
+</article>

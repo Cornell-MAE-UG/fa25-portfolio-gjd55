@@ -7,6 +7,7 @@ theme: jekyll-theme-minimal
 color_scheme: lightblue
 
 sass:
+  sass_dir: _sass
   style: compressed
 
 markdown: kramdown
@@ -16,8 +17,6 @@ kramdown:
 permalink: pretty
 
 collections:
-  pages:
-    output: true
   projects:
     output: true
     permalink: /projects/:path/
@@ -31,5 +30,4 @@ defaults:
 
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
   - jekyll-seo-tag

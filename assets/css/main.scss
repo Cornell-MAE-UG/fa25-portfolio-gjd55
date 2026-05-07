@@ -1,16 +1,94 @@
 ---
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
---- 
+---
 
 $color_scheme: '{{ site.color_scheme }}';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
 
-/* =========================
-   Project page styling
-   ========================= */
+/* Site layout */
+
+.site-header {
+  background: #3b405f;
+  color: white;
+  padding: 1rem 0;
+}
+
+.site-header-inner {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.site-main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+
+.site-footer {
+  background: #3b405f;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* Projects page */
+
+.project-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.project-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.project-card-image {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-card-body {
+  padding: 1.25rem;
+}
+
+.project-card-body h2 {
+  margin-top: 0;
+}
+
+/* Project pages */
 
 .project-description {
   margin: 0.5rem 0 1.25rem 0;
@@ -18,8 +96,6 @@ $color_scheme: '{{ site.color_scheme }}';
   font-size: 1.05rem;
   opacity: 0.9;
 }
-
-/* ===== Gallery layout ===== */
 
 .project-gallery {
   display: grid;
@@ -33,21 +109,19 @@ $color_scheme: '{{ site.color_scheme }}';
   display: block;
 }
 
-/* Uniform tile box (no cropping) */
 .project-image-wrapper {
   width: 100%;
-  aspect-ratio: 4 / 3;                /* change if you want */
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   border-radius: 10px;
-  background: #fff;                   /* use transparent if preferred */
+  background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-/* Option A: show entire image, no crop */
 .project-image {
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important;     /* key change */
+  object-fit: contain !important;
   display: block;
   padding: 0.5rem;
   transition: transform 0.15s ease;
@@ -57,13 +131,11 @@ $color_scheme: '{{ site.color_scheme }}';
   transform: scale(1.02);
 }
 
-/* ===== Lightbox (no JS) ===== */
-
 .lightbox {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.85);
-  display: none !important;           /* ensure hidden */
+  display: none !important;
   align-items: center;
   justify-content: center;
   padding: 2rem;
@@ -79,13 +151,28 @@ $color_scheme: '{{ site.color_scheme }}';
   max-height: 90vh;
   width: auto;
   height: auto;
-  object-fit: contain;                 
+  object-fit: contain;
   border-radius: 10px;
 }
 
-/* Click outside image to close */
 .lightbox-close {
   position: absolute;
   inset: 0;
   cursor: zoom-out;
+}
+
+.back-arrow {
+  display: inline-block;
+  font-size: 1.1em;
+  color: #686d85;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 1em;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.back-arrow:hover {
+  color: #3a3f58;
+  transform: translateX(-4px);
 }
