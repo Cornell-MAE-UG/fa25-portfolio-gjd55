@@ -8,7 +8,7 @@ permalink: /projects/
 
 <p>Total projects loaded: {{ site.projects | size }}</p>
 
-<p><a href="{{ "/projects/odp/" | relative_url }}">Direct link to ODP page</a></p>
+<p><a href="{{ "/_projects/odp/" | relative_url }}">Direct link to ODP page</a></p>
 
 <ul>
 {% for project in site.projects %}
