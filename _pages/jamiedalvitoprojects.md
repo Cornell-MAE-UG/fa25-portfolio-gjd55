@@ -4,21 +4,25 @@ title: Projects
 permalink: /projects/
 ---
 
-# Projects
+<h1>Projects</h1>
 
-**Project count:** {{ site.projects | size }}
+<div style="max-width: 1100px; margin: 0 auto;">
 
-**Visible project count:** {{ site.projects | where_exp: "project", "project.hidden_from_projects != true" | size }}
+  <div style="margin-bottom: 3rem;">
+    <a href="{{ "/projects/odp/" | relative_url }}" style="text-decoration: none; color: inherit; display: block;">
+      <img
+        src="{{ "/assets/images/assemblymain.png" | relative_url }}"
+        alt="MAE 2250 – Save the Grapes"
+        style="width: 100%; max-width: 760px; height: 320px; object-fit: cover; display: block; margin: 0 auto 1.25rem auto; border-radius: 8px;"
+      />
 
-## Debug list of all loaded projects
+      <h2 style="margin-bottom: 0.5rem;">MAE 2250 – Save the Grapes</h2>
 
-{% for project in site.projects %}
-- **title:** {{ project.title }}
-  - **path:** {{ project.path }}
-  - **url:** {{ project.url }}
-  - **hidden_from_projects:** {{ project.hidden_from_projects }}
-{% endfor %}
+      <p style="max-width: 900px; line-height: 1.6;">
+        A spotted lanternfly diversion concept developed through three major milestones:
+        Client Pitch, Functioning Prototype, and Exhibit/Client Report.
+      </p>
+    </a>
+  </div>
 
-## Direct ODP link
-
-[Go to ODP]({{ "/projects/odp/" | relative_url }})
+</div>
