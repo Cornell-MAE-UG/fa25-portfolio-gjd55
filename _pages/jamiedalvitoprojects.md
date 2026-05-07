@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<h1>Projects</h1>
+# Projects
 
 <div style="max-width: 1100px; margin: 0 auto;">
 
