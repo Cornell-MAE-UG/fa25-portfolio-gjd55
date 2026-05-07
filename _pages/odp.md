@@ -5,6 +5,8 @@ description: A spotted lanternfly diversion concept developed through three majo
 image: /assets/images/assemblymain.png
 technologies: [CAD, Prototyping, Testing, Arduino]
 permalink: /projects/odp/
+back_url: /projects/
+back_label: Back to Projects
 ---
 
 ## Project Overview
